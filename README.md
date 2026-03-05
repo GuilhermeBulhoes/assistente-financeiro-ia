@@ -19,7 +19,7 @@ Este projeto é um bot de automação financeira que recebe mensagens de gastos 
 5. O robô responde formatado de volta no WhatsApp.
 
 ## 📸 Demonstração
-<img src="assets/printdorobo.jpeg" width="117">    <img src="assets/bannerilustrativo.png" width="500">
+<img src="assets/Screenshot_20260304_230914_WhatsApp.jpg" width="129">    <img src="assets/bannerilustrativo.png" width="500">
 
 
 
