@@ -35,7 +35,7 @@
 
 ---
 ## 📸 Demonstração
-<img src="assets/Screenshot_20260304_230914_WhatsApp.jpg" width="129">    <img src="assets/bannerilustrativo.png" width="500">
+<img src="assets/Screenshot_20260304_230914_WhatsApp.jpg" width="129">    <img src="assets/banneroficial.png" width="439">
 
 ---
 ## ⚠️ Pontos de Atenção & Próximos Passos (Escalabilidade)
