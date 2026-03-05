@@ -1,4 +1,5 @@
 # 💰 Assistente Financeiro Pessoal - WhatsApp + IA (GPT-3.5 Turbo)
+<img src="assets/esc.png" width="350">
 
 Este projeto é um bot de automação financeira que recebe mensagens de gastos pelo **WhatsApp**, utiliza Processamento de Linguagem Natural (NLP) via **OpenAI** para entender o valor e a categoria, e processa tudo através de um servidor **Flask**.
 
@@ -18,8 +19,9 @@ Este projeto é um bot de automação financeira que recebe mensagens de gastos 
 5. O robô responde formatado de volta no WhatsApp.
 
 ## 📸 Demonstração
-![Screenshot do WhatsApp](./whatsapp-demo.png)
-*(Aqui você deve subir um print da conversa que você teve hoje com o robô)*
+<img src="assets/printdorobo.JPEG.jpeg" width="150">
+
+
 
 ---
 ### 🔒 Segurança
