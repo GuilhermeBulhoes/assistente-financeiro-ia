@@ -1,10 +1,10 @@
-# 💰 Assistente Financeiro Pessoal - WhatsApp + IA (GPT-3-5 TURBO)
+# 💰 Assistente Financeiro Pessoal - WhatsApp + IA (GPT-3.5 Turbo)
 
 Este projeto é um bot de automação financeira que recebe mensagens de gastos pelo **WhatsApp**, utiliza Processamento de Linguagem Natural (NLP) via **OpenAI** para entender o valor e a categoria, e processa tudo através de um servidor **Flask**.
 
 ## 🛠️ Tecnologias e Ferramentas
 *   **Python 3.14**: Linguagem principal do projeto.
-*   **OpenAI API (GPT-4-mini)**: Cérebro da IA para interpretar mensagens naturais.
+*   **OpenAI API (GPT-3.5 Turbo)**: Cérebro da IA para interpretar mensagens naturais.
 *   **Twilio API**: Interface de comunicação para o WhatsApp.
 *   **Flask (Python)**: Framework para criação do servidor Webhook.
 *   **ngrok**: Túnel seguro para expor o servidor local para a internet.
