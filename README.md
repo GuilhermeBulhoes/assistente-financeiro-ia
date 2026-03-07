@@ -14,7 +14,7 @@
 
 **Flask (Python):** Framework web responsável por gerenciar as rotas do Webhook.
 
-**Render:**Plataforma de hospedagem Cloud (PaaS) onde o servidor está em produção.
+**Render:** Plataforma de hospedagem Cloud (PaaS) onde o servidor está em produção.
 
 **Gunicorn:** Servidor HTTP WSGI de nível de produção (usado no Render para rodar o Flask).
 
