@@ -43,7 +43,7 @@
 **Para que este assistente deixe de ser um MVP (Mínimo Produto Viável) e se torne um produto comercializável, os seguintes pontos precisam ser implementados:**
 
 ---
-***Persistência de Dados (Banco de Dados):***
+****Persistência de Dados (Banco de Dados):****
 
 
 **Atual:** Os dados são processados, mas se perdem após a resposta.
@@ -51,7 +51,7 @@
 **Necessário:** Integrar um banco de dados (PostgreSQL ou MongoDB) para armazenar o histórico de gastos de cada usuário.
 
 ---
-***Autenticação e Multi-usuário:***
+****Autenticação e Multi-usuário:****
 
 
 **Atual:** O sistema não diferencia quem é quem se várias pessoas mandarem mensagem.
@@ -59,7 +59,7 @@
 **Necessário:** Criar uma lógica para identificar o usuário pelo número do WhatsApp e isolar seus dados.
 
 ---
-***Upgrade de Infraestrutura (Plano Pro):***
+****Upgrade de Infraestrutura (Plano Pro):****
 
 
 **Problema:** O plano Free do Render sofre "Cold Start" (demora para iniciar), o que pode causar timeouts no Twilio.
@@ -67,13 +67,13 @@
 **Solução:** Migrar para uma instância Web Service paga para garantir resposta instantânea.
 
 ---
-***Segurança e Validação:***
+****Segurança e Validação:****
 
 
 **Necessário:** Implementar validação de assinaturas do Twilio (X-Twilio-Signature) para garantir que apenas mensagens vindas do Twilio consigam acessar sua API no Render.
 
 ---
-***Gestão de Contexto:***
+****Gestão de Contexto:****
 
 
 **Necessário:** Fazer com que a IA lembre de mensagens anteriores (ex: "Quanto gastei no total hoje?"), o que exige o uso de Threads ou armazenamento de estado da conversa.
