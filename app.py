@@ -22,7 +22,7 @@ def whatsapp_reply():
     try:
         
         completion = client.chat.completions.create(
-            model="gpt-4", #Depois trocar progpt-4o-mini
+            model="gpt-4o-mini", #Depois trocar progpt-4o-mini
             messages=[
                 {"role": "system", "content": "Você é um assistente financeiro. Extraia item e valor."},
                 {"role": "user", "content": user_msg}
