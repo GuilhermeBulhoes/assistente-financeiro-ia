@@ -1,11 +1,13 @@
-#  Assistente Financeiro Pessoal - WhatsApp + IA (GPT-4o-mini)
-<img src="" width="500">
+<img src="assets/Captura de tela 2026-05-06 150121.png" width="900">
 
  Este projeto é um bot de automação financeira que recebe mensagens de gastos pelo **WhatsApp**, utiliza Processamento de Linguagem Natural **(NLP)** via **OpenAI** para a extração inteligente de dados (valor e categoria), e processa as requisições através de um microserviço **Flask** hospedado em nuvem no **Render**.
 ---
 
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
-
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ---
 ## 🛠️ Tecnologias e Ferramentas
@@ -45,7 +47,7 @@
 
 ---
 ## 📸 Demonstração
-<img src="assets/Screenshot_20260304_230914_WhatsApp.jpg" width="129">    <img src="assets/bannerilustrativo.png" width="500">
+<img src="assets/Screenshot_20260506_144727_WhatsApp.jpg" width="129"> 
 
 ---
 ## ⚠️ Pontos de Atenção & Próximos Passos (Escalabilidade)
