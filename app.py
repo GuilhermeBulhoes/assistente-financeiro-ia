@@ -22,7 +22,7 @@ def whatsapp_reply():
     try:
         
         completion = client.chat.completions.create(
-            model="gpt-4", #Depois trocar progpt-4o-mini
+            model="gpt-4o-mini", #Depois trocar progpt-4o-mini
             messages=[
                 {"role": "system", "content": "Você é um assistente financeiro. Extraia item e valor."},
                 {"role": "user", "content": user_msg}
@@ -40,6 +40,9 @@ def whatsapp_reply():
              cur.execute("CREATE TABLE IF NOT EXISTS historico (id SERIAL PRIMARY KEY, descricao TEXT, data TIMESTAMP DEFAULT CURRENT_TIMESTAMP);")
              # Insere a resposta da IA no banco
              cur.execute("INSERT INTO historico (descricao) VALUES (%s)", (resposta_ia,))
+             # Isso adiciona novas colunas sem apagar a 'descricao' que você já tem
+             cur.execute("ALTER TABLE historico ADD COLUMN IF NOT EXISTS valor NUMERIC;")
+             cur.execute("ALTER TABLE historico ADD COLUMN IF NOT EXISTS categoria TEXT;")
              conn.commit()
              cur.close()
              conn.close()
