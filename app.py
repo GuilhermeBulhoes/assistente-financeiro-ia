@@ -43,7 +43,7 @@ def whatsapp_reply():
              conn.commit()
              cur.close()
              conn.close()
-             confirmacao_banco = "\n(Salvo no banco com sucesso! 💾)"
+             confirmacao_banco = "\n(Salvo!)"
         except Exception as db_error:
              print(f"Erro ao salvar no Neon: {db_error}")
              confirmacao_banco = "\n(Erro ao salvar no banco, mas processei o texto.)"
